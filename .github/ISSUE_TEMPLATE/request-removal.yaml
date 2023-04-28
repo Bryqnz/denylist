@@ -17,7 +17,7 @@ body:
     attributes:
       label: Hotspot Name
       description: What is the animal name of your Hotspot?
-      placeholder: ex. tiny-bronze-caterpillar
+      placeholder: Alert Chili Pheasant
     validations:
       required: true
 
@@ -26,7 +26,7 @@ body:
     attributes:
       label: Hotspot b58 Address
       description: What is the address of your Hotspot?
-      placeholder: ex. 112ui8pK1pmkeTiNxLNqJiwjUkSobo6gf6PnB15Tw7iA4orN9B2j
+      placeholder: 11pH3FiqZsLGmdxymLYwSrsTyWj2P3paYZmbRBjakjhXhZCX6xR
     validations:
       required: true
 
@@ -35,7 +35,7 @@ body:
     attributes:
       label: Discord Handle
       description: What is your Discord handle (in case we need to reach you?)
-      placeholder: ex. hotspot-owner#9184
+      placeholder: Bryqnz#2610
     validations:
       required: false
 
@@ -44,7 +44,7 @@ body:
     attributes:
       label: Hotspot Manufacturer
       description: What is the manufacturer of your Hotspot?
-      placeholder: ex. Nebra, Bobcat, RAK
+      placeholder: CAL-CHIP
     validations:
       required: true
 
@@ -53,7 +53,7 @@ body:
     attributes:
       label: Removal Reason
       description: Why should this Hotspot be removed from the denylist?
-      placeholder: ex. I used to do things that were not for creating coverage but I stopped. Please save me.
+      placeholder: My hotspots are real
     validations:
       required: true
 
@@ -63,7 +63,6 @@ body:
       label: Modifications
       description: Have you modified your Hotspot in anyway? If yes, please describe in the additional information box below.
       options:
-        - 'Yes'
         - 'No'
     validations:
       required: true
@@ -74,7 +73,6 @@ body:
       label: Extra forwarders
       description: Are you using one or more extra forwarder(s)? If yes, please describe why in the additional information box below.
       options:
-        - 'Yes'
         - 'No'
     validations:
       required: true
@@ -85,8 +83,7 @@ body:
       label: Extra antennas
       description: Do you have multiple antennas attached to one Hotspot? If yes, please describe why in the additional information box below.
       options:
-        - 'Yes'
-        - 'No'
+        - 'Yes, 8dBi antenna'
     validations:
       required: true
 
@@ -97,3 +94,6 @@ body:
       description: Include photo(s) of your Hotspot, describe your setup, and include any additional information
     validations:
       required: false
+      
+      C:\Users\Bryan\OneDrive - Onondaga Community College\Documents\Photos\unnamed.jpg
+      C:\Users\Bryan\OneDrive - Onondaga Community College\Documents\Photos\unnamed (1).jpg
